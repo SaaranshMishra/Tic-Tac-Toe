@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<link href="https://fonts.googleapis.com/css?family=Acme|Josefin+Sans" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="setMsg(turn)">
+	<h1 id="header">Wanna play Tic-Tac-Toe?</h1>
+	<div>
+		<div id="turnMessage">
+		</div>
+		<table align="center"; id="gameBoard">
+			<tr class="gameRow">
+				<td id="c1" onclick="game(this)" class="gameCell">  </td>
+				<td id="c2" onclick="game(this)" class="gameCell">  </td>
+				<td id="c3" onclick="game(this)" class="gameCell">  </td>
+			</tr>
+			<tr class="gameRow">
+				<td id="c4" onclick="game(this)" class="gameCell">  </td>
+				<td id="c5" onclick="game(this)" class="gameCell">  </td>
+				<td id="c6" onclick="game(this)" class="gameCell">  </td>
+			</tr>
+			<tr class="gameRow">
+				<td id="c7" onclick="game(this)" class="gameCell">  </td>
+				<td id="c8" onclick="game(this)" class="gameCell">  </td>
+				<td id="c9" onclick="game(this)" class="gameCell">  </td>
+			</tr>
+		</table>
+	</div>
+	<div id="button">
+		<button id="btn" onclick="restartGame()">Restart</button>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

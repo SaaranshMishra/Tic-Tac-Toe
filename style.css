@@ -1,0 +1,44 @@
+body {
+	background: linear-gradient(to right, rgb(248, 26, 1), rgb(22, 4, 251));	
+}
+
+#header {
+	font-family: 'Acme', sans-serif;
+	text-transform: uppercase;
+	color: rgba(0, 0, 0, .5);
+	text-align: center;
+}
+
+#turnMessage {
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	color: rgba(0, 0, 0, .5);
+	font-weight: 800;
+	padding-bottom: 30px;
+	font-size: 150%;
+}
+
+#gameBoard {
+	margin-bottom: 10px;
+	height: 200px;
+	width: 200px;
+	table-layout: fixed;
+}
+
+#gameBoard,.gameCell {
+	border: 1px solid black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+
+#button {
+	margin-top: 50px;
+	text-align: center;
+}
+
+#btn {
+	color: white;
+	background-color: black;
+}

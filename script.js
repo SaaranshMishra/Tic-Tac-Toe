@@ -80,5 +80,9 @@ function game(cell) {
 }
 
 function restartGame() {
-	location.reload();
+	
+	for (var i = 1; i < 10; i++) {
+	var gameCell = get.documentElementById('c' + i);
+	gameCell.innerHTML = " ";
+}
 }
